@@ -8,4 +8,4 @@ Tip: You can also add an existing local repo to GitHub; see steps 8 and 9 from [
 
 2. **Clone the repo.**
 
-If you&#39;re project doesn&#39;t already exist on your computer, then you&#39;ll have to clone it from GitHub. To clone a repo, find the &quot;SSH clone URL&quot; under the &#39;Code&#39; button in your GitHub repo of interest. The repo can be cloned by typing `git clone ssh\_clone\_url` within your local directory of choice.
+If you&#39;re project doesn&#39;t already exist on your computer, then you&#39;ll have to clone it from GitHub. To clone a repo, find the &quot;SSH clone URL&quot; under the &#39;Code&#39; button in your GitHub repo of interest. The repo can be cloned by typing `git clone ssh_clone_url` within your local directory of choice.

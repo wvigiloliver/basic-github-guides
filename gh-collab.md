@@ -12,7 +12,7 @@ Tip: A 'remote'; is a connection between a repo on your computer and remote repo
 
 ## 3. **Contributor: Connect your cloned copy to the original repo.**
 
-By now you should have a fork of the original GitHub repo in your GitHub account and a clone of your fork on your computer. But what if the original GitHub repo is updated the day after you fork and clone it? Clearly, your fork and clone will be out-of-sync with the original GitHub repo. To stay in-sync, you'll need to establish a second 'remote'; connecting your cloned copy to the original GitHub. We'll call this second remote _upstream_. To set it up type `git remote add upstream clone\_url` within your local directory of choice (you'll first have to `cd` into the folder of your local cloned copy). The &quot;clone URL&quot; should be from the original GitHub repo and **not** your fork. It can be extracted by clicking on the 'Code'; button and copying the URL provided within the 'Clone with HTTPS';. Having done this, you should have two remotes: _origin_ = your clone \&lt;\&gt; your fork; and _upstream_ = your clone \&lt;\&gt; original GitHub repo. To get a list of all configured remotes type `git remote –v`.
+By now you should have a fork of the original GitHub repo in your GitHub account and a clone of your fork on your computer. But what if the original GitHub repo is updated the day after you fork and clone it? Clearly, your fork and clone will be out-of-sync with the original GitHub repo. To stay in-sync, you'll need to establish a second 'remote'; connecting your cloned copy to the original GitHub. We'll call this second remote _upstream_. To set it up type `git remote add upstream clone\_url` within your local directory of choice (you'll first have to `cd` into the folder of your local cloned copy). The &quot;clone URL&quot; should be from the original GitHub repo and **not** your fork. It can be extracted by clicking on the 'Code'; button and copying the URL provided within the 'Clone with HTTPS';. Having done this, you should have two remotes: _origin_ = your clone<>your fork; and _upstream_ = your clone<>original GitHub repo. To get a list of all configured remotes type `git remote –v`.
 
 Tip: _upstream_ is generally only for pulling, and not pulling and pushing like _origin_. But this will depend on your teams workflow and permissions.
 
@@ -21,7 +21,7 @@ Tip: _upstream_ is generally only for pulling, and not pulling and pushing like 
 Before working on a new section of the code or feature always ensure you’re working on the latest version of the project. To do so, you’ll have to make use of the two remotes _upstream_ and _remote_. This can be accomplished by first checking out (or switching) into the _master_ branch – just in case you’re on a different branch. Next, fetch the latest changes from the original GitHub repo using _upstream_ and then push these changes to your fork using _origin_. This can be carried out by typing the following within the local directory of your cloned copy:
 
     git checkout master # switch to the master branch
-    git pull upstream master &amp;&amp; git push origin master # update your cloned copy and then update your fork
+    git pull upstream master && git push origin master # update your cloned copy and then update your fork
 
 ## 5. **Contributor: Create a new branch and start working within it.**
 

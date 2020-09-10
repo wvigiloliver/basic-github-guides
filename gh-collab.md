@@ -2,7 +2,7 @@
 
 #### Instructions are for collaborating in projects when you **don't** have contributor rights in the original repository/project, e.g. contributing to someone else's open-source project. 
 
-### The process is simpler if you have contributor rights, in which case you should refer to the *Insider's Guide to Collaborating with GitHub*.
+#### The process is simpler if you have contributor rights, in which case you should refer to the *Insider's Guide to Collaborating with GitHub*.
 
 ---
 
